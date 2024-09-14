@@ -1,7 +1,11 @@
 https://www.youtube.com/watch?v=QE_mkDiu4hE&t=174s
 Repo: kho lưu trữ
 Branch
-Conflict: xung đột
+Conflict: xung đột, tạo xung đột master, và xung đột ở branch
+-> merge chọn 1 trong 2 hoặc cả 2
+local
+remote
+
 # command
 - git init: làm folder được đán lệnh thành repogit
 - git status: xem trạng thái dự án
@@ -23,3 +27,4 @@ Conflict: xung đột
 
 - git merge <branch>: set branch master, merge dev
 - git branch -d <name branch bị xóa>
+- git push link nhánh: đẩy lên remote
