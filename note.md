@@ -13,8 +13,9 @@ Repo: kho lưu trữ
 - git log: xem thời điểm commit (người commit, ghi chú, tgian)
     * Thêm --oneline: thu gọn
 
-- git check out master: trở lại dự án hiện tại
-- git check out <ID>: quay lại thời điểm ID đó được commit
+- git checkout master: trở lại dự án hiện tại
+- git checkout <ID>: quay lại thời điểm ID đó được commit
+- git checkout <branch>: vào nhánh branch
 
 - git branch: xem branch hiện tại
 - git branch -b <new name branch>: tạo branch mới, set tại điểm đó
