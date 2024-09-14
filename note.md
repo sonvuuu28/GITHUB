@@ -52,4 +52,12 @@ https://www.youtube.com/watch?v=QE_mkDiu4hE&t=174s
 - git checkout -b staging origin/staging: tạo branch có tên staging lấy từ origin/staging
 - git add, commit, push bthg
 
-#### merge nhánh con vào master
+#### merge nhánh con vào master (Thao tác trên github)
+- pull request, new pull req, base (master) compare(staging)
+- create pull request
+- merge
+
+- git pull (swith về branch muốn được pull)
+
+
+#### git ignore dấu thư mục file ...
