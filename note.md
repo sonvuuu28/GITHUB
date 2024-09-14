@@ -18,7 +18,7 @@ Repo: kho lưu trữ
 - git checkout <branch>: vào nhánh branch
 
 - git branch: xem branch hiện tại
-- git branch -b <new name branch>: tạo branch mới, set tại điểm đó
+- git checkout -b <new name branch>: tạo branch mới, set tại điểm đó
 
 - git merge <branch>: set branch master, merge dev
 - git brach -d <name branch bị xóa>
