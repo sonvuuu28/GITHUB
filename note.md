@@ -1,11 +1,12 @@
+# Link youtube
 https://www.youtube.com/watch?v=QE_mkDiu4hE&t=174s
-Repo: kho lưu trữ
-Branch
-Conflict: xung đột, tạo xung đột master, và xung đột ở branch
--> merge chọn 1 trong 2 hoặc cả 2
-local
-remote
-clone
+# Terms
+- Repo: kho lưu trữ
+- Branch
+- Conflict: xung đột, tạo xung đột master, và xung đột ở branch -> merge chọn 1 trong 2 hoặc cả 2
+- local
+- remote
+- clone
 
 # command
 - git init: làm folder được đán lệnh thành repogit
@@ -31,10 +32,24 @@ clone
 - git push link nhánh: đẩy lên remote
 
 
-
+#### Thành viên (o phải chủ)
 - git clone: clone dự án
     + xóa thư mục github
     + lên mục <> code lấy link https
     + Tạo folder rỗng, cd vào
     + git clone link 
     + gõ 'code .' -> dẫn ra vs code
+    + push chỉ cần: git push không cần link 
+
+
+#### Tạo branch trên local cách đẩy lên Repo
+- git checkout -b dev
+- git push -u origin dev
+
+#### Lấy branch trên github
+- VD: tạo tay branch staging
+- git fetch origin
+- git checkout -b staging origin/staging: tạo branch có tên staging lấy từ origin/staging
+- git add, commit, push bthg
+
+#### merge nhánh con vào master
