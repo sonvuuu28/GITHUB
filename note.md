@@ -1,6 +1,7 @@
 https://www.youtube.com/watch?v=QE_mkDiu4hE&t=174s
 Repo: kho lưu trữ
-
+Branch
+Conflict: xung đột
 # command
 - git init: làm folder được đán lệnh thành repogit
 - git status: xem trạng thái dự án
@@ -18,7 +19,7 @@ Repo: kho lưu trữ
 - git checkout <branch>: vào nhánh branch
 
 - git branch: xem branch hiện tại
-- git branch -b <new name branch>: tạo branch mới, set tại điểm đó
+- git checkout -b <new name branch>: tạo branch mới, set tại điểm đó
 
 - git merge <branch>: set branch master, merge dev
-- git brach -d <name branch bị xóa>
+- git branch -d <name branch bị xóa>
