@@ -50,3 +50,4 @@ https://www.youtube.com/watch?v=QE_mkDiu4hE&t=174s
 - VD: tạo tay branch staging
 - git fetch origin
 - git checkout -b staging origin/staging: tạo branch có tên staging lấy từ origin/staging
+- git add, commit, push bthg
