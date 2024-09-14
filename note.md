@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=QE_mkDiu4hE&t=174s
 - git push link nhánh: đẩy lên remote
 
 
-
+#### Thành viên (o phải chủ)
 - git clone: clone dự án
     + xóa thư mục github
     + lên mục <> code lấy link https
@@ -51,3 +51,5 @@ https://www.youtube.com/watch?v=QE_mkDiu4hE&t=174s
 - git fetch origin
 - git checkout -b staging origin/staging: tạo branch có tên staging lấy từ origin/staging
 - git add, commit, push bthg
+
+#### merge nhánh con vào master
