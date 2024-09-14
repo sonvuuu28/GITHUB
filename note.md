@@ -5,6 +5,7 @@ Conflict: xung đột, tạo xung đột master, và xung đột ở branch
 -> merge chọn 1 trong 2 hoặc cả 2
 local
 remote
+clone
 
 # command
 - git init: làm folder được đán lệnh thành repogit
@@ -28,3 +29,12 @@ remote
 - git merge <branch>: set branch master, merge dev
 - git branch -d <name branch bị xóa>
 - git push link nhánh: đẩy lên remote
+
+
+
+- git clone: clone dự án
+    + xóa thư mục github
+    + lên mục <> code lấy link https
+    + Tạo folder rỗng, cd vào
+    + git clone link 
+    + gõ 'code .' -> dẫn ra vs code
